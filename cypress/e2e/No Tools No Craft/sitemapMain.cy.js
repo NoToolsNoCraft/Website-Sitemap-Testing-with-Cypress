@@ -1,4 +1,4 @@
-describe('Sitemap test for HelloWorld.rs', () => {
+describe('Sitemap test for notoolsnocraft.tech', () => {
     const baseUrl = 'https://notoolsnocraft.tech'; // Define the webpage being tested
   
     it('Sitemap main collection', () => {
