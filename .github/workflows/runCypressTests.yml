@@ -30,11 +30,3 @@ jobs:
 
     - name: Run Cypress tests
       run: npx cypress run --spec 'cypress/e2e/'  # Runs all tests in the e2e folder
-
-    - name: Upload Cypress videos and screenshots 
-      uses: actions/upload-artifact@v3
-      with:
-        name: cypress-artifacts
-        path: |
-          cypress/videos
-          cypress/screenshots
